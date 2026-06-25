@@ -1,0 +1,69 @@
+.navbar {
+  background-color: #0a0a0a;
+  border-bottom: 4px solid #4CAF50;
+  padding: 1rem 0;
+  box-shadow: 0 4px 20px rgba(76, 175, 80, 0.2);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  color: #4CAF50;
+  text-decoration: none;
+  font-weight: bold;
+  text-shadow: 0 0 10px #4CAF50;
+  letter-spacing: 2px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navbar-user {
+  font-size: 0.75rem;
+  color: #66BB6A;
+  padding: 0.5rem 1rem;
+  background-color: rgba(76, 175, 80, 0.1);
+  border: 2px solid #4CAF50;
+}
+
+.navbar-link,
+.navbar-logout {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.75rem;
+  padding: 0.5rem 1rem;
+  background-color: #4CAF50;
+  color: #000;
+  border: 2px solid #333;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all 0.2s;
+}
+
+.navbar-link:hover,
+.navbar-logout:hover {
+  background-color: #66BB6A;
+  transform: scale(1.05);
+}
+
+.admin-link {
+  background-color: #ff9800;
+  color: #000;
+}
+
+.admin-link:hover {
+  background-color: #ffb74d;
+}

@@ -1,0 +1,139 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  text-shadow: 0 0 20px #4CAF50;
+  margin-bottom: 0.5rem;
+  letter-spacing: 3px;
+}
+
+.dashboard-header p {
+  font-size: 0.8rem;
+  color: #999;
+  letter-spacing: 2px;
+}
+
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.stat-box {
+  background-color: #2a2a2a;
+  border: 3px solid #4CAF50;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.2);
+}
+
+.stat-box h3 {
+  font-size: 0.8rem;
+  color: #66BB6A;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.stat-number {
+  font-size: 2rem;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.gamemodes-section {
+  margin-bottom: 4rem;
+}
+
+.gamemodes-section h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #4CAF50;
+  text-shadow: 0 0 10px #4CAF50;
+  margin-bottom: 2rem;
+  letter-spacing: 2px;
+}
+
+.gamemodes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+}
+
+.gamemode-card {
+  background-color: #2a2a2a;
+  border: 3px solid #4CAF50;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  box-shadow: 0 0 15px rgba(76, 175, 80, 0.1);
+}
+
+.gamemode-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(76, 175, 80, 0.5);
+  border-color: #66BB6A;
+}
+
+.gamemode-icon {
+  font-size: 2rem;
+}
+
+.gamemode-name {
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #999;
+  padding: 2rem;
+}
+
+.info-section {
+  background-color: #2a2a2a;
+  border: 3px solid #4CAF50;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.2);
+}
+
+.info-section h2 {
+  font-size: 1.2rem;
+  color: #4CAF50;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 0 10px #4CAF50;
+  letter-spacing: 1px;
+}
+
+.tier-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.tier-item {
+  background-color: #1a1a1a;
+  border-left: 3px solid #4CAF50;
+  padding: 1rem;
+  font-size: 0.7rem;
+  color: #ddd;
+  letter-spacing: 1px;
+}

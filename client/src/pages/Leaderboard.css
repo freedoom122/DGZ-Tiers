@@ -1,0 +1,80 @@
+.leaderboard-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.leaderboard-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.leaderboard-header h1 {
+  font-size: 2rem;
+  color: #4CAF50;
+  text-shadow: 0 0 20px #4CAF50;
+  letter-spacing: 2px;
+}
+
+.leaderboard-table {
+  background-color: #2a2a2a;
+  border: 3px solid #4CAF50;
+  box-shadow: 0 0 30px rgba(76, 175, 80, 0.3);
+}
+
+.leaderboard-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 150px;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 2px solid #1a1a1a;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #ddd;
+}
+
+.leaderboard-row:last-child {
+  border-bottom: none;
+}
+
+.leaderboard-row.header-row {
+  background-color: #1a1a1a;
+  border-bottom: 3px solid #4CAF50;
+  color: #4CAF50;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.rank-pos {
+  text-align: center;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.player-name {
+  text-align: left;
+}
+
+.tier-display {
+  text-align: right;
+  font-weight: bold;
+  text-shadow: 0 0 10px currentColor;
+}
+
+.no-data {
+  padding: 2rem;
+  text-align: center;
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.total-players {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #4CAF50;
+  padding: 1rem;
+  border: 2px solid #4CAF50;
+  background-color: #1a1a1a;
+  letter-spacing: 1px;
+}

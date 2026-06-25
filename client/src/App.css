@@ -1,0 +1,75 @@
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #2a2a2a;
+  --accent-color: #4CAF50;
+  --accent-hover: #66BB6A;
+  --danger-color: #f44336;
+  --warning-color: #ff9800;
+  --success-color: #4CAF50;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--accent-color);
+  text-shadow: 0 0 10px var(--accent-color);
+}
+
+.pixel-border {
+  border: 3px solid var(--accent-color);
+  box-shadow: inset 0 0 0 1px #000, 0 0 20px rgba(76, 175, 80, 0.3);
+}
+
+.button-minecraft {
+  font-family: 'Press Start 2P', cursive;
+  padding: 10px 20px;
+  font-size: 0.75rem;
+  background-color: var(--accent-color);
+  color: #000;
+  border: 2px solid #333;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 3px 3px 0 #000;
+}
+
+.button-minecraft:hover {
+  background-color: var(--accent-hover);
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0 #000;
+}
+
+.button-minecraft:active {
+  transform: translate(3px, 3px);
+  box-shadow: 1px 1px 0 #000;
+}
+
+.button-minecraft.danger {
+  background-color: var(--danger-color);
+}
+
+.button-minecraft.danger:hover {
+  background-color: #e53935;
+}
+
+@keyframes pixel-glow {
+  0%, 100% {
+    box-shadow: inset 0 0 0 1px #000, 0 0 20px rgba(76, 175, 80, 0.3);
+  }
+  50% {
+    box-shadow: inset 0 0 0 1px #000, 0 0 30px rgba(76, 175, 80, 0.6);
+  }
+}
+
+.glow-effect {
+  animation: pixel-glow 2s infinite;
+}

@@ -1,0 +1,162 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.admin-header h1 {
+  font-size: 2rem;
+  color: #ff9800;
+  text-shadow: 0 0 20px #ff9800;
+  letter-spacing: 2px;
+}
+
+.admin-form {
+  background-color: #2a2a2a;
+  border: 3px solid #ff9800;
+  padding: 2rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 0 20px rgba(255, 152, 0, 0.3);
+}
+
+.admin-form h2 {
+  font-size: 1.2rem;
+  color: #ff9800;
+  margin-bottom: 1rem;
+  letter-spacing: 1px;
+}
+
+.admin-form form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  align-items: end;
+}
+
+.admin-form input,
+.admin-form select {
+  padding: 0.75rem;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 0.7rem;
+  background-color: #1a1a1a;
+  border: 2px solid #ff9800;
+  color: #fff;
+  outline: none;
+}
+
+.admin-form input:focus,
+.admin-form select:focus {
+  box-shadow: 0 0 15px rgba(255, 152, 0, 0.5);
+}
+
+.admin-form button {
+  grid-column: auto;
+}
+
+.players-list {
+  background-color: #2a2a2a;
+  border: 3px solid #4CAF50;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(76, 175, 80, 0.2);
+}
+
+.players-list h2 {
+  font-size: 1.3rem;
+  color: #4CAF50;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-shadow: 0 0 10px #4CAF50;
+}
+
+.players-table {
+  display: grid;
+  gap: 1rem;
+}
+
+.player-card {
+  display: grid;
+  grid-template-columns: 200px 1fr auto;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #1a1a1a;
+  border: 2px solid #4CAF50;
+  align-items: center;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.player-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.player-email {
+  font-size: 0.7rem;
+  color: #999;
+}
+
+.player-ranks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.rank-badge {
+  background-color: #2a2a2a;
+  border: 1px solid #4CAF50;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.65rem;
+  color: #ddd;
+}
+
+.rank-value {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.no-rank {
+  font-size: 0.65rem;
+  color: #999;
+  font-style: italic;
+}
+
+.player-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.edit-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.edit-form select {
+  padding: 0.5rem;
+  font-size: 0.65rem;
+}
+
+.edit-form button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.65rem;
+}
+
+.no-data {
+  text-align: center;
+  padding: 2rem;
+  color: #999;
+  font-size: 0.8rem;
+}
